@@ -40,3 +40,8 @@ This repository contains experiments, learning projects, and some other stuff.
 ## ⚡ How to Run
 Each project may have its own instructions.  
 Please check individual folders for details.
+
+---
+
+![Repo Size](https://img.shields.io/github/repo-size/NaN-code01/Small_Projects_Collection)
+![Last Commit](https://img.shields.io/github/last-commit/NaN-code01/Small_Projects_Collection)
