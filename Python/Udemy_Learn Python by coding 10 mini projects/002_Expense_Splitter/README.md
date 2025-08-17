@@ -82,13 +82,13 @@ Bagi Persentase
 ----------------------------------------
 
 Orang ke-1: Arif
-Si-Alice bayar brp% [angka]: 40
+Si-Arif bayar brp% [angka]: 40
 
 Orang ke-2: Budi
-Si-Bob bayar brp% [angka]: 30
+Si-Budi bayar brp% [angka]: 30
 
 Orang ke-3: Cecep
-Si-Charlie bayar sisa% : 30
+Si-Cecep bayar sisa% : 30
 ----------------------------------------
 
 ----------------------------------------
