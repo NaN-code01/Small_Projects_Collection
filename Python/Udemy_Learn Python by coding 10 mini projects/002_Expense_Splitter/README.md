@@ -21,6 +21,8 @@ A Python script to split expenses among multiple people either **equally** or ba
 
 - Python 3.x
 
+---
+
 ## Usage
 
 1. Run the script in your terminal:
@@ -56,6 +58,8 @@ python expense_splitter.py
 - Total Bill  
 - Number of People  
 - Individual contribution (equal or percentage-based)
+
+---
 
 ## Example Output
 
@@ -97,3 +101,56 @@ Budi    [30 %]: Rp150,000.00
 Cecep   [30 %]: Rp150,000.00
 ----------------------------------------
 ```
+
+---
+
+## Error Handling
+
+The program includes several validations and error messages:
+
+- **Invalid input (non-numeric values)**  
+  ```bash
+  [ input yg bener ]
+  ```
+  → Shown when entering letters/symbols instead of numbers.
+
+- **Bill amount = 0**  
+  ```bash
+  [ tagihan Rp0 mah gausah di bayar ]
+  ```
+  → Bill of Rp0 does not make sense.
+
+- **Bill amount < 0**  
+  ```bash
+  [           tagihan harus > 0            ]
+  [ ini toko nya hutang ke lu apa gmn dah? ]
+  ```
+  → Negative bills are rejected with a humorous message.
+
+- **Number of people = 1**  
+  ```bash
+  [ kalo sendiri ya bayar sendiri aja jir ]
+  ```
+  → Splitting does not apply if only one person.
+
+- **Number of people < 1**  
+  ```bash
+  [ awowkawowk orang nya pada kabur ]
+  ```
+  → Invalid if less than 1 person.
+
+- **Percentage ≤ 0%**  
+  ```bash
+  [ persentase jangan <= 0% ]
+  ```
+  → Each participant’s share must be greater than 0%.
+
+- **Total percentage > 100%**  
+  ```bash
+  [ persentase jangan melebihi 100% ]
+  [   nanti sisanya malah ga bayar  ]
+  ```
+  → Prevents exceeding 100% total contribution.
+
+---
+
