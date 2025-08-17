@@ -8,7 +8,7 @@ A Python script to analyze word frequency from user input or from `.txt` and `.p
 - Supports both **manual text input** and **file reading** (`.txt` and `.pdf`).  
 - Case-insensitive analysis (ignores uppercase/lowercase).  
 - Dynamically aligns output based on the longest word length.  
-- Handles invalid inputs gracefully (wrong menu choice, missing files, etc.).
+- Safely manages invalid or unexpected input (wrong menu choice, missing files, etc.).
 
 ## Notes
 
