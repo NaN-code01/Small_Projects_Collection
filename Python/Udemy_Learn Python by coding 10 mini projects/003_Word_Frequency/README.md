@@ -89,3 +89,37 @@ file    : 1
 
 ---
 
+## Error Handling
+
+The program includes several checks to prevent crashes and guide the user:
+
+1. **Invalid menu input**  
+   - If the user enters something other than `1` or `2` at the input method prompt:  
+     ```
+     [ Input Yg Bener ]
+     ```
+
+2. **File not found or unreadable**  
+   - If the specified `.txt` or `.pdf` file does not exist or cannot be opened:  
+     ```
+     [ Error ]
+     ```
+   - This also applies to corrupted files or unsupported content.
+
+3. **Unsupported file type**  
+   - Only `.txt` and `.pdf` files are supported.  
+   - Any other file type is rejected safely with `[ Error ]`.
+
+4. **Unreadable PDF content**  
+   - If a `.pdf` file cannot be read by `pypdf` (missing library, encrypted file, or corrupted file), the program catches the exception and prints `[ Error ]`.
+
+5. **General exceptions**  
+   - Any unexpected errors during file reading or input handling are caught and displayed, preventing program crashes.
+
+---
+
+## Code ``
+
+```python
+
+```
