@@ -11,12 +11,9 @@ A simple Python script to calculate monthly and yearly income, tax, and net inco
 
 ## Notes
 
+- ‼️This code is mostly written in Indonesian (variable names, prompts, and comments). Users who are not familiar with the Indonesian language may find it harder to read or modify the code.
 - The program requires all inputs to be positive numbers.
 - Currency symbol can be changed by editing the function parameter `mata_uang` in the `kalkulasi_keuangan` function.
-
-## Warning
-
-⚠️ This code is mostly written in Indonesian (variable names, prompts, and comments). Users who are not familiar with the Indonesian language may find it harder to read or modify the code.
 
 ## Requirements
 
