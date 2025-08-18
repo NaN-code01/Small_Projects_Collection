@@ -104,7 +104,7 @@ Details: [Errno 2] No such file or directory: 'missing.txt'
 
 ---
 
-# Code `tkinter_notepad.py`
+## Code `tkinter_notepad.py`
 
 ```python
 #[ Python ]
