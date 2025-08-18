@@ -109,6 +109,6 @@ if __name__ == '__main__':
   main()
 
 '''
-export DISPLAY=:11;
+export DISPLAY=:1;
 python tkinter_notepad.py
 '''
