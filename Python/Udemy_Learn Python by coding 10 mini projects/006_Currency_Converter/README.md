@@ -119,7 +119,7 @@ pip install requests
 
 ---
 
-## 📌 Example Output  
+## Example Output  
 
 ### Using **LOCAL** source  
 ```bash
