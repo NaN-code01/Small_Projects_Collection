@@ -125,7 +125,7 @@ The program includes several validations and error messages:
   [           tagihan harus > 0            ]
   [ ini toko nya hutang ke lu apa gmn dah? ]
   ```
-  → Negative bills are rejected with a humorous message.
+  → Negative bills are rejected.
 
 - **Number of people = 1**  
   ```bash
