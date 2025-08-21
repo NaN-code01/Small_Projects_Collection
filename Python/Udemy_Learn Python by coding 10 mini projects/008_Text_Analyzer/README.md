@@ -19,7 +19,7 @@ A Python script to analyze a text file by counting characters, words, spaces, an
   (Change this in the `main()` function if you want to analyze another file.)
   ```python
   def main() -> None:
-  teks_file: str = 'note.txt' #directory
+    teks_file: str = 'note.txt' #directory
   ```
 - Regular expressions (`re`) are used to detect words more accurately than simple split.
 
