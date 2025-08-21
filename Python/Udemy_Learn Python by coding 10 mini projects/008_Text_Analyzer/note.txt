@@ -1,0 +1,34 @@
+W. D. Gaster was the Royal Scientist before Alphys, and was stated to have irreplaceable brilliance.[1] Gaster's Followers imply that he created the CORE[2] and has disappeared. During normal gameplay, W. D. Gaster is typically unmentioned. Despite this, River Person, rare Fun Value events, and certain Inaccessible Rooms hint at his existence. This includes Room 264, named room_gaster.
+
+In particular, Gaster's Followers relay Gaster's implied fate. One iteration says that he "fell into his creation," the second states that "his experiments went wrong," and the third claims he was "shattered across time and space." Similar to Sans and Papyrus, W. D. Gaster's dialogue uses a unique typeface, named Wingdings.
+
+In Room 269 (room_mysteryman), a figure (spr_mysteryman) widely believed to be Gaster can be found. The figure is black and white with a distorted, cracked face. Unlike every other NPC, they have no collision physics, and interacting with them causes them to react in surprise and vanish while a sound effect plays.
+
+This room can only be accessed when the game's fun value (which can be changed by editing file0 and undertale.ini) is set to 66. In this scenario, Room 268 (room_water_fakehallway), a hallway with a 10% chance to contain a gray door, appears between Room 94 (room_water_savepoint1) and Room 95 (room_water11). These are the "Crystal" SAVE Point and Sans's telescope rooms, respectively. The door in the aforementioned hallway leads to Room 269.
+
+Once the protagonist leaves Room 269 back into Room 268, the door disappears from the corridor, though it is possible to exit the room and trigger the door's reappearance, as the fun values do not reset until the protagonist leaves the hall. The corridor itself becomes inaccessible once the protagonist leaves it and all values drop to 0.
+
+Upon attempting to call someone using the Cell Phone in either of these rooms, the default message "There's no response..." appears.
+
+Room 272 is black and has a ghostly figure (nicknamed "Redacted", as the file name for it is spr_redacted_a) in the middle of it that becomes less transparent as the protagonist approaches. If the protagonist attempts a conversation with the NPC, it returns "* [redacted]" in lowercase Wingdings, which implies that a conversation was planned here but was removed for security purposes.[3] Exiting Room 272 leads to the Sound Test Room, where the player can listen to Gaster's Theme.
+
+To access this room and avoid the Annoying Dog error screens, a hexadecimal editor needs to be used to change the "Dogcheck" value.[4]
+
+In Room 264 (room_gaster), the text below is displayed in uppercase Wingdings. While it appears to be the missing seventeenth lab entry from the True Lab, this could be a red herring, as there was an alternate seventeenth entry in the game's files prior to version 1.001-4, which added Japanese localization. The alternate entry is heavily implied to have been written by Alphys, as it mirrors her entry format, writing style, and correlates with her Determination experiments.[5] Both entries are inaccessible in normal gameplay; Alphys's entry can only be found in the game's text files, and Gaster's entry is only accessible through SAVE manipulation or debug mode. Room 264 immediately follows the generator room in the True Lab.
+
+Transliteration of the Wingdings text is as follows:
+
+ENTRY NUMBER SEVENTEEN
+DARK DARKER YET DARKER
+THE DARKNESS KEEPS GROWING
+THE SHADOWS CUTTING DEEPER
+PHOTON READINGS NEGATIVE
+THIS NEXT EXPERIMENT
+SEEMS
+VERY
+VERY
+INTERESTING
+...
+WHAT DO YOU TWO THINK
+Once the message ends, the screen turns black for a second before the game closes. The audio that plays during the entry is labeled as "mus_smile" in the game files. This file can be sped up by 1000% to reveal Muffet's laugh, reversed, and then looped over.[6] An excerpt from Entry Number Seventeen was also available at deltarune.com/him.png from 2015.
+
