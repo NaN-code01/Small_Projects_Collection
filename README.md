@@ -6,33 +6,42 @@ This repository contains experiments, learning projects, and some other stuff.
 ---
 
 ## 📚 Table of Contents
-- [🐍 Python](#python)
-- [🟨 JavaScript](#javascript) (coming soon...)
-- [☕ Java](#java) (coming soon...)
-- [💻 C++](#c) (coming soon...)
-- [🌐 Others](#others) (coming soon...)
-
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="18"/> [Python](#python)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="18"/> [JavaScript](#javascript) (coming soon...)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="18"/> [C++](#c) (coming soon...)
+- 🌐 [Others](#others) (coming soon...)
 ---
 
-## 🐍 Python
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+## Python
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="28" alt="python logo"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" height="28" alt="python badge"/>
+</div>
+
 - **Project 1** – Short description of what it does  
 - **Project 2** – Short description of what it does  
 
-## 🟨 JavaScript
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+## JavaScript
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="28" alt="javascript logo"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" height="28" alt="javascript badge"/>
+</div>
+
 - (coming soon...)
 
-## ☕ Java
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-- (coming soon...)  
+## C++
 
-## 💻 C++
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="28" alt="cplusplus logo"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" height="28" alt="cplusplus badge"/>
+</div>
+
 - (coming soon...)  
 
 ## 🌐 Others
-- Projects in other languages like Ruby, Go, Rust, etc.
+- Projects in other programing languages...
 - (coming soon...)
 
 ---
