@@ -1,4 +1,4 @@
-# 🎯 Small Projects Collection
+# <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm85Z2RmZjRhcDI5NHJoaTNnbmk5azdobnRyeWpmbmZ2amtkcmVwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/uMaVlcNSxWl1F1mDb1/giphy.gif" height="32" style="vertical-align: middle;"/> Small Projects Collection
 
 Welcome to my personal collection of small projects in various programming languages.  
 This repository contains experiments, learning projects, and some other stuff.
