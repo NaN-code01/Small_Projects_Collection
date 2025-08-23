@@ -19,8 +19,7 @@ This repository contains experiments, learning projects, and some other stuff.
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" height="28" alt="python badge"/>
 </div>
 
-- **Project 1** – Short description of what it does  
-- **Project 2** – Short description of what it does  
+- **Udemy - Learn Python by Coding 10 Mini Projects** `(10 project)` [link](https://github.com/NaN-code01/Small_Projects_Collection/tree/main/Python/Udemy_Learn%20Python%20by%20coding%2010%20mini%20projects)
 
 ## JavaScript
 
