@@ -18,6 +18,8 @@ Users can input a region name, send a request to the weather API, and view the c
 
 The application retrieves weather data through an API request and updates the interface dynamically. It also adjusts visual themes depending on weather conditions (clear, cloudy, rain, etc.) and switches between day and night backgrounds based on API data.
 
+> ⚠️ **Note:** This app was mainly built and tested on mobile, so it might look a bit off on desktop.
+
 ---
 
 ## ✨ Features
@@ -47,7 +49,8 @@ The application retrieves weather data through an API request and updates the in
 This project uses minimal dependencies and runs entirely in the browser.
 
 **External Service**
-- Weather data provided by:  
+- Weather data provided by:
+  [![WeatherAPI](https://cdn.weatherapi.com/v4/images/weatherapi_logo.png)](https://www.weatherapi.com/)
   https://www.weatherapi.com/
 
 **Technologies**
@@ -112,16 +115,6 @@ After searching for a location, the application will display:
 
 * City / region name
 * Temperature in °C
-* Weather condition text
 * Weather icon
+* Weather condition text
 * Theme color that reflects the weather
-
----
-
-## 📜 License
-
-This project is intended as a small educational or demonstration project.
-Weather data is provided by **WeatherAPI**.
-
-```
-```
