@@ -49,8 +49,8 @@ The application retrieves weather data through an API request and updates the in
 This project uses minimal dependencies and runs entirely in the browser.
 
 **External Service**
-- Weather data provided by:
-  [![WeatherAPI](https://cdn.weatherapi.com/v4/images/weatherapi_logo.png)](https://www.weatherapi.com/)
+- Weather data provided by:  
+  [![WeatherAPI](https://cdn.weatherapi.com/v4/images/weatherapi_logo.png)](https://www.weatherapi.com/)  
   https://www.weatherapi.com/
 
 **Technologies**
