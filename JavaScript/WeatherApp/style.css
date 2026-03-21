@@ -1,0 +1,179 @@
+@keyframes skyMove {
+    0% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10vh;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        hsl(60, 100%, 95%),
+        hsl(210, 100%, 85%),
+        hsl(200, 100%, 75%)
+    );
+    background-size: 200% 200%;
+    animation: skyMove 15s ease infinite;
+    z-index: -2;
+}
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        hsl(230, 60%, 28%),
+        hsl(240, 50%, 18%),
+        hsl(260, 40%, 10%)
+    );
+    background-size: 200% 200%;
+    animation: skyMove 15s ease infinite;
+    opacity: 0;
+    transition: opacity 2.5s ease-in-out;
+    z-index: -1;
+}
+body.night::after {
+    opacity: 1;
+}
+
+#appTitle {
+    color: white;
+    text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.6);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 48px;
+}
+#searchContainer {
+    border: none;
+    border-radius: 8px;
+    background-color: hsla(210, 0%, 95%, 1);
+    box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.2);
+    padding: 8px;
+}
+#searchContainer #searchRegion {
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+#searchContainer #searchBtn {
+    font-weight: bold;
+    color: white;
+    background-color: hsl(145, 100%, 40%);
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+#searchContainer #searchBtn:hover {
+    background-color: hsl(145, 100%, 30%);
+}
+#searchContainer #searchBtn:active {
+    background-color: hsl(145, 100%, 50%);
+}
+#searchContainer #errorMsg {
+    color: tomato;
+    font-weight: bold;
+    margin: 8px;
+}
+#weatherContainer {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.4);
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 24px auto;
+    width: 200px;
+    max-width: 200px;
+}
+#weatherContainer p {
+    color: white;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.4);
+    margin: 2px auto;
+}
+#weatherContainer #region {
+    font-weight: bold;
+    font-size: 16px;
+}
+#weatherContainer #temperature {
+    font-weight: bold;
+    font-size: 24px;
+}
+#weatherContainer #weatherIcon {
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.4);
+    width: 120px;
+}
+#weatherContainer #weather {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Weather Container Theme */
+/* ☀️ CLEAR */
+.bg-clear {
+    background: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+}
+/* ☁️ CLOUDY */
+.bg-cloudy {
+    background: linear-gradient(to bottom, #d7d2cc 0%, #304352 100%);
+}
+/* 🌫️ FOG */
+.bg-fog {
+    background: linear-gradient(to bottom, #bdc3c7 0%, #2c3e50 100%);
+}
+/* 🌧️ RAIN */
+.bg-rain {
+    background: linear-gradient(to bottom, #4b6cb7 0%, #182848 100%);
+}
+/* ⛈️ STORM */
+.bg-storm {
+    background: linear-gradient(to bottom, #232526 0%, #414345 100%);
+}
+/* ❄️ SNOW */
+.bg-snow {
+    background: linear-gradient(to bottom, #e6dada 0%, #274046 100%);
+}
+.bg-unknown {
+    background: linear-gradient(
+        135deg,
+        #000000 0%,
+        #002244 20%,
+        #220000 40%,
+        #0033aa 60%,
+        #550000 80%,
+        #000000 100%
+    );
+}
+
+#weatherAPIwatermark {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+}

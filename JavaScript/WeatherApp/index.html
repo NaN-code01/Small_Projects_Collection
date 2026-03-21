@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1 id="appTitle">Weather App</h1>
+
+        <div id="searchContainer">
+            <input
+                type="text"
+                id="searchRegion"
+                placeholder="Search region..."
+                autocomplete="off"
+            />
+            <button id="searchBtn">search</button>
+            <p id="errorMsg" style="display: none"></p>
+        </div>
+
+        <div id="weatherContainer" style="display: none">
+            <p id="region"></p>
+            <img id="weatherIcon" />
+            <p id="temperature"></p>
+            <p id="weather"></p>
+        </div>
+
+        <div id="weatherAPIwatermark">
+            <a href="https://www.weatherapi.com/" title="Free Weather API">
+                <img
+                    src="//cdn.weatherapi.com/v4/images/weatherapi_logo.png"
+                    alt="Weather data by WeatherAPI.com"
+                    width="48px"
+                />
+            </a>
+        </div>
+        <script src="config.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
