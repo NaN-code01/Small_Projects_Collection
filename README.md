@@ -28,7 +28,7 @@ This repository contains experiments, learning projects, and some other stuff.
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" height="28" alt="javascript badge"/>
 </div>
 
-- (coming soon...)
+- **Weather App** [link](https://github.com/NaN-code01/Small_Projects_Collection/tree/main/JavaScript/WeatherApp)
 
 ## C++
 
