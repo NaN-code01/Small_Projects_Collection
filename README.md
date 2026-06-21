@@ -7,7 +7,7 @@ This repository contains experiments, learning projects, and some other stuff.
 
 ## 📚 Table of Contents
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="18"/> [Python](#python)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="18"/> [JavaScript](#javascript) (coming soon...)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="18"/> [JavaScript](#javascript)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="18"/> [C++](#c) (coming soon...)
 - 🌐 [Others](#others) (coming soon...)
 ---
@@ -20,6 +20,7 @@ This repository contains experiments, learning projects, and some other stuff.
 </div>
 
 - **Udemy - Learn Python by Coding 10 Mini Projects** `(10 project)` [link](https://github.com/NaN-code01/Small_Projects_Collection/tree/main/Python/Udemy_Learn%20Python%20by%20coding%2010%20mini%20projects)
+- **Simulasi Database Persenjataan Militer** [link](https://github.com/NaN-code01/Small_Projects_Collection/tree/main/Python/Simulasi%20Database%20Persenjataan%20Militer)
 
 ## JavaScript
 
