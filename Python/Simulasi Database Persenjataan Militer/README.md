@@ -10,13 +10,11 @@
 
 ---
 
-## 📌 Tautan Dokumentasi YouTube
+## 📌 Dokumentasi YouTube
 
+[![Video_Youtube](img/vid_youtube.jpg)](https://youtu.be/9IiWFpHivpo)
 
-
-```text
-https://youtu.be/9IiWFpHivpo
-```
+**Link:** [CRUD dengan Database | ft. Python SQLite3](https://youtu.be/9IiWFpHivpo)
 
 ---
 
